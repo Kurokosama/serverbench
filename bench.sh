@@ -78,16 +78,16 @@ speed_test() {
 
 speed() {
     speed_test '' 'Speedtest.net'
-    speed_test '5145'  'Beijing    CU'
-    speed_test '3633'  'Shanghai   CT'
-    speed_test '24447' 'Shanghai   CU'
-    speed_test '27594' 'Guangzhou  CT'
-    speed_test '26678' 'Guangzhou  CU'
-    speed_test '16192' 'Shenzhen   CU'
-    speed_test '4515'  'Shenzhen   CM'
-    speed_test '32155' 'Hongkong   CN'
-    speed_test '13623' 'Singapore  SG'
-    speed_test '15047' 'Tokyo      JP'
+#    speed_test '5145'  'Beijing    CU'
+#    speed_test '3633'  'Shanghai   CT'
+#    speed_test '24447' 'Shanghai   CU'
+#    speed_test '27594' 'Guangzhou  CT'
+#    speed_test '26678' 'Guangzhou  CU'
+#    speed_test '16192' 'Shenzhen   CU'
+#    speed_test '4515'  'Shenzhen   CM'
+#    speed_test '32155' 'Hongkong   CN'
+#    speed_test '13623' 'Singapore  SG'
+#    speed_test '15047' 'Tokyo      JP'
 }
 
 io_test() {
