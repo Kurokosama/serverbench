@@ -124,8 +124,8 @@ check_virt(){
         virt="Docker"
     elif grep -qa lxc /proc/1/cgroup; then
         virt="LXC"
-    elif grep -qa container=lxc /proc/1/environ; then
-        virt="LXC"
+#    elif grep -qa container=lxc /proc/1/environ; then
+#        virt="LXC"
     elif [[ -f /proc/user_beancounters ]]; then
         virt="OpenVZ"
     elif [[ "${virtualx}" == *kvm-clock* ]]; then
