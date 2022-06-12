@@ -7,7 +7,7 @@
 # URL: https://teddysun.com/444.html
 # Edited by Kuroko
 
-trap _exit INT QUIT TERM
+#trap _exit INT QUIT TERM
 
 _red() {
     printf '\033[0;31;31m%b\033[0m' "$1"
